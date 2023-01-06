@@ -1,0 +1,20 @@
+.article-card {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    gap: 16px;
+    padding: 16px;
+    margin: 32px 0 ;
+}
+.article-card__image {
+    width: auto; /* or max-width: 100%; */
+      height: auto;
+    object-fit: cover;
+}
+
+.article-card__content {
+    width: calc(100% - 266px);
+}
